@@ -1,4 +1,5 @@
 from setuptools import setup
 
 # Minimal shim that reads configuration from setup.cfg
-setup()
+if __name__ == "__main__":
+    setup()
